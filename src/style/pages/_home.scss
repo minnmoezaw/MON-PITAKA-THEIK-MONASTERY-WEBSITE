@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Podkova";
+  margin-top: 1em;
+  .title {
+    color: #020202;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .menu {
+    background-color: #132043;
+    border-radius: 1em;
+    &__text {
+      font-size: 1.6rem;
+      color: white;
+      padding: 0.4em;
+    }
+    &__icon {
+      width: 0.9em;
+      margin-left: 0.3em;
+    }
+  }
+}
